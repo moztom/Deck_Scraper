@@ -31,7 +31,7 @@ https://nodejs.org/en
 ## Installation
 
 1. Download the files from this repository.
-2. Open a new terminal/command Propt and navigate to the root folder (Deck_Scraper).
+2. Open a new terminal/command Propt and navigate to the root folder (Deck_Scraper-main).
 3. Run the following command in the terminal/command Propt.
 
 ```sh
@@ -52,13 +52,13 @@ The free trial account will give you everything required for this script to work
 Once you make it to the console page, click 'get a free phone number'.
 You also need your Account SID and Auth Token (found on the console page).
 
-Next, open the .env file with a text editor (.env is a hidden file) and paste the Account SID, Auth Token, twilio phone number, and your verfied phone number as shown in the comments in the file. Save and exit the file.
+Next, open the .env file with a text editor (.env is a hidden file in the Deck_Scraper-main folder) and paste the Account SID, Auth Token, twilio phone number, and your verfied phone number as shown in the comments in the file. Save and exit the file.
 
 Now you should be good to go!
 
 ## Usage
 
-Open the root folder (Deck_Scraper) in your terminal/command propt and enter the following command:
+Open the root folder (Deck_Scraper-main) in your terminal/command propt and enter the following command:
 
 ```sh
 npm start
