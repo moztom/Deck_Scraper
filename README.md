@@ -52,7 +52,7 @@ The free trial account will give you everything required for this script to work
 Once you make it to the console page, click 'get a free phone number'.
 You also need your Account SID and Auth Token (found on the console page).
 
-Next, open the .env file with a text editor and paste the Account SID, Auth Token, twilio phone number, and your verfied phone number as shown in the comments in the file. Save and exit the file.
+Next, open the .env file with a text editor (.env is a hidden file) and paste the Account SID, Auth Token, twilio phone number, and your verfied phone number as shown in the comments in the file. Save and exit the file.
 
 Now you should be good to go!
 
