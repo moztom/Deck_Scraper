@@ -54,6 +54,8 @@ You also need your Account SID and Auth Token (found on the console page).
 
 Next, open the .env file with a text editor (.env may be a hidden file) and paste the Account SID, Auth Token, twilio phone number, and your verfied phone number as shown in the comments in the file. Save and exit the file.
 
+**Important Note**: Don't upload your edited .env file anywhere on the internet. Other people have web scrapers that will alert them that you have uploaded your twilio details and personal phone number.
+
 Now you should be good to go!
 
 ## Usage
