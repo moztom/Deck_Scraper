@@ -6,7 +6,7 @@ This is a little web scraping application that checks the stock of the Steam Dec
 -   [Requirements](#requirements)
 -   [Installation](#installation)
 -   [Usage](#usage)
--   [Monitoring a different steam deck model](#monitoring-a-difference-steam-deck-model)
+-   [Monitoring a different steam deck model](#monitoring-a-different-steam-deck-model)
 -   [Deployment](#deployment)
 
 ## Requirements
@@ -69,7 +69,7 @@ npm start
 This will run the script every 5 minutes on your computer, and output the current stock of each deck size in the command line.
 If the 64GB model comes into stock you will be sent a text.
 
-#### Monitoring a difference Steam Deck model
+#### Monitoring a different Steam Deck model
 
 I have it currently set to send an SMS if the 64GB model comes into stock.
 If you want to send an SMS when a different model is in stock, you need to change some code in the scrape.js file.
@@ -84,6 +84,7 @@ Change it to the following to be notified when the 256GB model is in stock:
 ```js
 if (product.size256 == '256GB' && product.stock256 != 'Out of stock') {
 ```
+Note: The SMS text will still say 64GB
 
 ## Deployment
 
