@@ -31,8 +31,8 @@ https://nodejs.org/en
 ## Installation
 
 1. Download the files from this repository.
-2. Open a new terminal/command Propt and navigate to the root folder (Deck_Scraper-main).
-3. Run the following command in the terminal/command Propt.
+2. Open a new terminal/command propt and navigate to the root folder (Deck_Scraper-main).
+3. Run the following command in the terminal/command propt.
 
 ```sh
 npm install
