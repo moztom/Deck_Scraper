@@ -88,4 +88,4 @@ Note: The SMS text will still say 64GB
 
 ## Deployment
 
-If you want this script to run on a server, I personally recommend setting it up on a raspberry pi as a cron job. Another option would be to deploy it to a cloud service such as Google cloud or AWS.
+If you want this script to run on a server, I personally recommend setting it up to run on a raspberry pi. Another option would be to deploy it to a cloud service such as Google cloud or AWS.
