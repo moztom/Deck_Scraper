@@ -1,5 +1,5 @@
 <h1>Deck Scraper</h1>
-This is a little web scraping application that checks the stock of the Steam Deck, and sends you a text when in stock!
+This is a little web scraping application that checks the stock of the Steam Deck, and sends you a text when it's in stock!
 
 ## Contents
 
